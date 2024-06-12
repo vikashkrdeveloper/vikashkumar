@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: CursiveFont;
+  src: "/Fonts/Cursive.ttf";
+}
+
+@font-face {
+  font-family: WorkSansFont;
+  src: "/Fonts/Cursive.ttf";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
