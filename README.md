@@ -10,6 +10,7 @@ This project is a portfolio aimed at creating a portfolio website for Vikash Kum
 - React.js
 - vue.js
 - Tailwindcss
+- Typescript 
 - NextUI
 - Node.js
 - Express.js
