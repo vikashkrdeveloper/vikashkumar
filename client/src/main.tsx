@@ -9,7 +9,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
     <NextUIProvider>
       <NavBar />
-      <main className='bg-[#FFFFFF] max-w-7xl m-auto p-5  dark:bg-[#000000] text-[#000000] dark:text-[#FFFFFF]'>
+      <main className='bg-[#FFFFFF] max-w-[1150px] m-auto p-5  dark:bg-[#000000] text-[#000000] dark:text-[#FFFFFF]'>
         <App />
       </main>
     </NextUIProvider>

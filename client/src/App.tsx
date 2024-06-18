@@ -1,15 +1,17 @@
 import { Route, Routes } from "react-router-dom";
 import LandingPage from "./pages/home/LandingPage";
+import Projects from "./pages/projects/projects";
+import ProjectsDetails from "./pages/projects/projects-details";
 
 const App = () => {
   return (
     <Routes>
-       
       <Route path="/" Component={LandingPage} />
       <Route path="/about" element={<h1>About</h1>} />
       <Route path="/services" element={<h1>Services</h1>} />
       <Route path="/contact" element={<h1>Contact</h1>} />
-      <Route path="/projects" element={<h1>Projects</h1>} />
+      <Route path="/projects" Component={Projects} />
+      <Route path="/projects/details/123456" Component={ProjectsDetails}/>
       <Route path="/skills" element={<h1>Skills</h1>} />
       <Route path="/experience" element={<h1>Experience</h1>} />
       <Route path="/education" element={<h1>Education</h1>} />
