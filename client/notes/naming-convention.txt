@@ -1,0 +1,21 @@
+# Naming Conventions
+
+## Component Names (Pascal Case)
+Component names should follow Pascal Case convention.
+
+Example: MyComponentName
+
+## Variable Names (Camel Case)
+Variable names should follow Camel Case convention.
+
+Example: myVariableName
+
+## Folder Names (Snake Case)
+Folder names should follow Snake Case convention.
+
+Example: my_folder_name
+
+## Constants (Screaming Snake Case)
+Constants should be written in uppercase letters and separated by underscores.
+
+Example: MY_CONSTANT_NAME

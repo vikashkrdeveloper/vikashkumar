@@ -1,4 +1,4 @@
-import HeroSection from "../../components/home/HeroSection.tsx";
+import HeroSection from "../../components/Home/HeroSection.tsx";
 
 const LandingPage = () => {
     return (

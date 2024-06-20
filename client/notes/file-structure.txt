@@ -1,0 +1,69 @@
+├── client
+│   ├── notes
+│   │   ├── file-structure.txt
+│   │   └── naming-conventions.txt
+│   ├── public
+│   │   └── assets
+│   │       ├── images
+│   │       │   ├── first-project.png
+│   │       │   └── vikash-developer.png
+│   │       └── icons
+│   │           └── favicon.ico
+│   ├── src
+│   │   ├── components
+│   │   │   ├── App.tsx
+│   │   │   ├── DownArrow.tsx
+│   │   │   ├── MoonIcon.tsx
+│   │   │   ├── NavBar.tsx
+│   │   │   ├── VikashKumar.tsx
+│   │   │   ├── SunIcon.tsx
+│   │   │   ├── Loader
+│   │   │   │   └── CardSkeleton.tsx
+│   │   │   ├── Home
+│   │   │   │   ├── HeroSection.tsx
+│   │   │   │   └── ResumeIcon.tsx
+│   │   │   └── Projects
+│   │   │       └── Card.tsx
+│   │   ├── pages
+│   │   │   ├── landing-page.tsx
+│   │   │   └── projects
+│   │   │       ├── projects-details.tsx
+│   │   │       └── projects.tsx
+│   │   ├── index.css
+│   │   ├── main.tsx
+│   │   └── gvite-env.d.ts
+│   ├── index.html
+│   ├── vite.config.ts
+│   ├── tsconfig.json
+│   ├── .gitignore
+│   ├── .env
+│   ├── .env.local
+│   ├── .env.production
+│   ├── .env.development
+│   ├── .env.staging
+│   ├── .env.test
+│   ├── .env.local.example
+│   ├── .env.production.example
+│   ├── .env.development.example
+│   ├── .env.staging.example
+│   ├── .env.test.example
+│   ├── .eslintrc.cjs
+│   ├── tailwind.config.js
+|   ├── tsconfig.node.json
+│   ├── postcss.config.js
+│   ├── README.md
+│   ├── package.json
+│   └── package-lock.json
+|
+|
+|
+├── server
+│   ├── api
+│   │   ├── routes.js
+│   │   └── controllers.js
+│   ├── config
+│   │   ├── database.js
+│   │   └── server.js
+│   └── models
+│       └── note.js
+└── README.md
