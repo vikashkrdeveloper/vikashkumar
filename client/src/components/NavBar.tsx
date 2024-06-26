@@ -152,7 +152,7 @@ export default function NavBar() {
                     </Switch>
                 </NavbarItem>
                 <NavbarItem className="max-sm:hidden">
-                    <Button as={NavLink} className="max-sm:hidden rounded-[2rem]" color="primary" href="#" variant="flat">
+                    <Button as={NavLink} className="max-sm:hidden rounded-[2rem] text-[#ffffff]" href="#" variant="flat">
                         Login
                     </Button>
                 </NavbarItem>
