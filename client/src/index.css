@@ -4,12 +4,16 @@
 
 @font-face {
   font-family: CursiveFont;
-  src: "/Fonts/Cursive.ttf";
+  src: url("/assets/fonts/cursive.ttf");
 }
 
 @font-face {
   font-family: WorkSansFont;
-  src: "/Fonts/Cursive.ttf";
+  src: url("/assets/fonts/Cursive.ttf");
+}
+
+.cursive-font {
+  font-family: CursiveFont;
 }
 
 * {
