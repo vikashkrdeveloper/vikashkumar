@@ -70,7 +70,7 @@ const Footer = () => {
         <div className="mt-2">
           <center className="text-sm text-gray-500 dark:text-gray-400 sm:text-center">
             <span>© {new Date().getFullYear()} </span>
-            <NavLink to="">Vikash™</NavLink>
+            <NavLink to="">VKD™</NavLink>
           </center>
           <center className=" text-[12px]">
             Developed by ❤️
